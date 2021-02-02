@@ -16,7 +16,7 @@
 
 /* global WebAssembly */
 
-import wasmBuffer from './ethkey.wasm.js';
+import wasmBuffer from './vapkey.wasm.js';
 
 const NOOP = () => {};
 

@@ -15,8 +15,8 @@
 // along with Parity.  If not, see <http://www.gnu.org/licenses/>.
 
 import secp256k1 from 'secp256k1/elliptic';
-import { keccak_256 as keccak256 } from 'js-sha3';
-import { extern, slice } from './ethkey.js';
+import { keccak_256 as keccak256 } from 'vapjs-sha3';
+import { extern, slice } from './vapkey.js';
 
 const ctx = extern
   .then((extern) => {

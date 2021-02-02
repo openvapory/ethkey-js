@@ -1,5 +1,6 @@
 {
-  "name": "@parity/ethkey.js",
+  "name": "vapkey.js",
+  "namespace": "openvapory",
   "version": "0.2.2",
   "description": "",
   "main": "target/lib.js",
@@ -13,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paritytech/ethkey-js.git"
+    "url": "git+https://github.com/openvapory/vapkey-js.git"
   },
   "author": "Parity Team <admin@parity.io>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/paritytech/ethkey-js/issues"
+    "url": "https://github.com/openvapory/vapkey-js/issues"
   },
-  "homepage": "https://github.com/paritytech/ethkey-js#readme",
+  "homepage": "https://github.com/openvapory/vapkey-js#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -32,7 +33,7 @@
     "tape-async": "^2.3.0"
   },
   "dependencies": {
-    "js-sha3": "^0.6.1",
+    "vapjs-sha3": "^0.6.1",
     "secp256k1": "^3.3.0"
   }
 }
