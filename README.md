@@ -1,10 +1,10 @@
-# Parity ethkey.js
+# Tetsy vapkey.js
 
-Ethereum keys generator, compatible with [rust codebase](https://github.com/paritytech/parity/tree/master/ethkey).
+Vapory keys generator, compatible with [rust codebase](https://github.com/tetcoin/vapkey).
 
 # Installation
 
-`$ npm i @parity/ethkey.js --save`
+`$ npm i vapkey.js --save`
 
 ## API
 
